@@ -18,7 +18,7 @@ export const ContratoWrapper = styled.div`
 
 export const Box1 = styled.div`
 width: 100%;
-height: 25%;
+height: 20%;
 padding:20px ;
 padding-bottom: 0;
 display: flex;
@@ -77,7 +77,7 @@ export const EstadoCivil = styled.input`
 `
 export const Box2 = styled.div`
 width: 100%;
-height: 25%;
+height: 20%;
 padding:20px;
 padding-top: 0;
 padding-bottom: 0;
@@ -142,4 +142,145 @@ height: 40px;
 border-radius: 10px;
 border: none;
 background-color: white;
+`
+
+export const Box3 = styled.div`
+width: 100%;
+height: 27%;
+padding:20px;
+padding-top: 0;
+padding-bottom: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+`
+
+export const Cpts = styled.input`
+padding: 20px;
+width: 176px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: white;
+`
+export const Serie = styled.input`
+padding: 20px;
+width: 176px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: white;
+`
+export const UfCpts = styled.input`
+padding: 20px;
+width: 55px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: white;
+`
+
+export const DtCpts = styled.input`
+padding: 20px;
+width: 208px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: white;
+`
+export const Rg = styled.input`
+padding: 20px;
+width: 176px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: white;
+`
+export const UfRg = styled.input`
+padding: 20px;
+width: 55px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: white;
+`
+export const DtRg = styled.input`
+padding: 20px;
+width: 208px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: white;
+`
+
+export const CPF = styled.input`
+padding: 20px;
+width: 176px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: white;
+`
+export const Pis = styled.input`
+padding: 20px;
+width: 176px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: white;
+`
+export const Box4 = styled.div`
+width: 100%;
+height: 10%;
+padding:20px;
+padding-top: 0;
+padding-bottom: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+`
+
+export const NomeMae = styled.input`
+padding: 20px;
+width: 348px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: white;
+`
+export const NomePai = styled.input`
+padding: 20px;
+width: 348px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: white;
+`
+
+export const Box5 = styled.div`
+width: 100%;
+height: 25%;
+padding:20px;
+padding-top: 0;
+padding-bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 50px;
+`
+export const Button = styled.button`
+  height: 46px;
+  width: 201px;
+  border-radius: 20px;
+  background-color: #fff;
+  border:none;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  
+  :hover{
+    background-color: rgba(255,255,255,0.7);
+  }
 `
