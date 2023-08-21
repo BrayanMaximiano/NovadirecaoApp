@@ -9,6 +9,7 @@ const Index = ()=>{
                 <Link to={"/"}><NavigationItem>Home</NavigationItem></Link>
                 <Link to={"/atualizar"}><NavigationItem>Atualizar</NavigationItem></Link>
                 <Link to={"/form"}><NavigationItem>Contrato</NavigationItem></Link>
+                <Link to={"/allcontracts"}><NavigationItem>AllContracts</NavigationItem></Link>
                 
             </NavWrapper>
        </Container> 
