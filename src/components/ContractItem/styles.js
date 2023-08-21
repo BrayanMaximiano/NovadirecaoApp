@@ -53,4 +53,14 @@ border: 1px solid black;
 display: flex;
 align-items: center;
 justify-content: center ;
+transition: all ease 0.5s;
+&:hover{
+    cursor: pointer;
+    background-color: rgba(157, 38, 54, 0.2);
+}
+
+svg{
+    font-size: 30px;
+    margin-right: 5px;
+}
 `
