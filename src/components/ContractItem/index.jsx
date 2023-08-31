@@ -2,13 +2,17 @@ import React from 'react'
 import { Container, CpfWrapper, IdWrapper, MenuWrapper, NameWrapper, } from './styles'
 import ContactPageIcon from '@mui/icons-material/ContactPage';
 
-const index = () => {
+const index = (props) => {
+
+  function MenuShow(){
+    window.alert("It's working !!!")
+  }
   return (
     <Container>
-        <IdWrapper>2306</IdWrapper>
-        <NameWrapper>Brayan Igor Fiola Maximiano</NameWrapper>
-        <CpfWrapper>489.703.218-02</CpfWrapper>
-        <MenuWrapper><ContactPageIcon /> Ver Contrato</MenuWrapper>
+        <IdWrapper>{props.id}</IdWrapper>
+        <NameWrapper>{props.name}</NameWrapper>
+        <CpfWrapper>{props.cpf}</CpfWrapper>
+        <MenuWrapper onClick={MenuShow}><ContactPageIcon /> Ver Contrato</MenuWrapper>
     </Container>
 
   )
